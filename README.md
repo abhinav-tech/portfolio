@@ -1,11 +1,12 @@
-# Portfolio Repository
+# My Portfolio
 
-This repository contains the `my-portfolio` Vite project.
+A simple portfolio site built with Vite, React and Tailwind CSS.
 
-Navigate to the `my-portfolio` directory and install dependencies:
+## Scripts
 
 ```bash
-cd my-portfolio
 npm install
 npm run dev
 ```
+
+This will start the development server on <http://localhost:5173>.
