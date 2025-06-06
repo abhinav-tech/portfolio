@@ -39,7 +39,7 @@ export default function App() {
       {/* Header */}
       <header className="sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-background/80">
         <nav className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
-          <h1 className="text-xl font-bold tracking-tight">John\u00A0Doe</h1>
+          <h1 className="text-xl font-bold tracking-tight">John Doe</h1>
           <ul className="flex space-x-4">
             {sections.map((s) => (
               <li key={s.id}>
@@ -74,9 +74,9 @@ export default function App() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl font-bold">Hi, I'm John \uD83D\uDC4B</h2>
+            <h2 className="text-3xl font-bold">Hi, I'm John 👋</h2>
             <p>
-              I'm a full\u2011stack developer specializing in building exceptional digital experiences. Currently, I'm focused on building responsive web applications with React, TypeScript, and Node.js.
+              I'm a full-stack developer specializing in building exceptional digital experiences. Currently, I'm focused on building responsive web applications with React, TypeScript, and Node.js.
             </p>
             <div className="flex space-x-4">
               <Button size="icon" asChild aria-label="GitHub">
@@ -118,12 +118,12 @@ export default function App() {
               },
               {
                 title: "Project Two",
-                description: "A mobile\u2011first budgeting app built with Next.js.",
+                description: "A mobile-first budgeting app built with Next.js.",
                 link: "https://github.com/johndoe/project-two",
               },
               {
                 title: "Project Three",
-                description: "An AI\u2011powered note\u2011taking Chrome extension.",
+                description: "An AI-powered note-taking Chrome extension.",
                 link: "https://github.com/johndoe/project-three",
               },
             ].map((p) => (
@@ -188,7 +188,7 @@ export default function App() {
 
       {/* Footer */}
       <footer className="border-t py-6 text-center text-sm text-muted-foreground">
-        \u00A9 {new Date().getFullYear()} John\u00A0Doe. All rights reserved.
+        © {new Date().getFullYear()} John Doe. All rights reserved.
       </footer>
     </div>
   );
